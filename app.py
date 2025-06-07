@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd
 import pickle
 import os
-from sklearn import set_config
-set_config(transform_output='pandas')
+#from sklearn import set_config
+#set_config(transform_output='pandas')
 
 # Define the path where app.py is saved, usually /content
 base_path = '/content'
