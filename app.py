@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import pickle
 
+from sklearn import set_config
+set_config(transform_output='pandas')
 
 
 trained_pipe = pickle.load(open('trained_pipe/trained_pipe_LogReg.sav', 'rb'))
