@@ -4,7 +4,7 @@ import pickle
 
 
 
-trained_pipe = pickle.load(open('trained_pipe/trained_pipe_LogReg (2).sav', 'rb'))
+trained_pipe = pickle.load(open('trained_pipe/trained_pipe_LogReg.sav', 'rb'))
 
 
 st.title("Heart Disease Prediction App")
