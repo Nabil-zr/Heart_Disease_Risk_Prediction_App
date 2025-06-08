@@ -77,9 +77,6 @@ if st.button("Predict"):
 
     prediction = trained_pipe.predict(input_data)
 
-
-
-
     prob = trained_pipe.predict_proba(input_data)[0][1]  # Probability of heart disease
 
     if prob > 0.70:
@@ -92,17 +89,7 @@ if st.button("Predict"):
         st.success(f"✅ No risk detected. (Probability: {prob:.2%})")
 
 
-    #if prediction[0] == 1:
-      #st.error(f"⚠️ High risk of heart disease! (Probability: {prob:.2%})")
-    #else:
-      #st.success(f"✅ Low risk of heart disease. (Probability: {prob:.2%})")
 
-    #prob = trained_pipe.predict_proba(input_data)[0][1]  # Probability of heart disease
-
-    #if prediction[0] == 1:
-      #st.error(f"⚠️ High risk of heart disease! (Probability: {prob:.2%})")
-    #else:
-      #st.success(f"✅ Low risk of heart disease. (Probability: {prob:.2%})")
 
 
 
