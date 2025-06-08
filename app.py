@@ -3,6 +3,9 @@ import pandas as pd
 import pickle
 import os
 
+from sklearn import set_config
+set_config(transform_output='pandas')
+
 st.write("Files in current directory:", os.listdir("."))
 st.write("Files in trained_pipe folder:", os.listdir("trained_pipe"))
 
