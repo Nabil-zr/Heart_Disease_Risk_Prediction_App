@@ -5,18 +5,6 @@ import os
 from sklearn import set_config
 set_config(transform_output='pandas')
 
-# Define the path where app.py is saved, usually /content
-base_path = '/content'
-
-# Create .streamlit inside /content
-os.makedirs(os.path.join(base_path, '.streamlit'), exist_ok=True)
-
-# Write config.toml inside .streamlit folder
-with open(os.path.join(base_path, '.streamlit', 'config.toml'), 'w') as f:
-    f.write("""
-[theme]
-base="dark"
-""")
 
 trained_pipe = pickle.load(open('/content/trained_pipe/trained_pipe_LogReg.sav', 'rb'))
 
