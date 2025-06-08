@@ -1,6 +1,10 @@
 import streamlit as st
 import pandas as pd
 import pickle
+import os
+
+st.write("Files in current directory:", os.listdir("."))
+st.write("Files in trained_pipe folder:", os.listdir("trained_pipe"))
 
 trained_pipe = pickle.load(open('trained_pipe/trained_pipe_LogReg.sav', 'rb'))
 
