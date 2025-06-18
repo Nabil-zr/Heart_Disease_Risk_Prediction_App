@@ -1,1 +1,4 @@
-# Heart_Disease_Risk_Prediction_App
+This Streamlit application predicts the probability of heart disease occurrence using a supervised machine learning approach. The model is built using Python, with key libraries including Pandas for data handling and Streamlit for creating the interactive web interface. The underlying model is a Logistic Regression classifier, which was selected after evaluating multiple algorithms and achieved a ROC AUC score of 82%, indicating strong predictive performance. The dataset used contains over 300,000 samples, which posed some challenges in terms of memory and processing efficiency. To address this, data minimization techniques were applied to optimize performance without compromising model accuracy. This project demonstrates a practical implementation of machine learning in healthcare risk prediction.
+
+This is the link of my web application: 
+https://heartdiseaseriskpredictionapp-bz5ccrffqjawucqmtav3ab.streamlit.app/
