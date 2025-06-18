@@ -39,3 +39,6 @@ Applied data visualization to uncover meaningful patterns and communicate insigh
 
 **This is the link of my web application:** 
 https://heartdiseaseriskpredictionapp-bz5ccrffqjawucqmtav3ab.streamlit.app/
+
+**This is the link for the slides presentation:**
+https://prezi.com/view/KyK1fbCvZi3oBcUuhpYy/
