@@ -5,15 +5,16 @@ This project is a Streamlit web application that predicts the probability of hea
 **2.  Languages and Libraries Used**
 
 **Languages:** Python
+
 **Libraries:**
 
-pandas for data manipulation.
+**pandas** for data manipulation.
 
-scikit-learn for model building and evaluation.
+**scikit-learn** for model building and evaluation.
 
-Streamlit for creating the interactive user interface.
+**Streamlit** for creating the interactive user interface.
 
-matplotlib and seaborn (if applicable) for data visualization.
+**matplotlib and seaborn** (if applicable) for data visualization.
 
 **Presentation Tool:** Prezi was used for creating a dynamic and engaging project presentation.
 
